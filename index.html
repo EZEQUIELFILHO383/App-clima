@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title>App | Previsão do Tempo</title>
+    <link rel="icon" href="https://openweathermap.org/img/wn/04n.png" />
+</head>
+
+<body>
+    <div class="larger-box">
+        <input class="input-city" placeholder="Digite o nome da cidade">
+        <button class="button-search" onclick="clik()">
+            <img class="img-search" alt="busca" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+
+        <div class="medium-box">
+            <h2 class="city"></h2>
+
+            <p class="climate"></p>
+
+            <div class="smaller-box">
+                <img class="img-previsao" alt="icone-info-tempo" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="texto-previsao"></p>
+            </div>
+
+            <p class="umidade"></p>
+        </div>
+
+    </div>
+</body>
+
+</html>
